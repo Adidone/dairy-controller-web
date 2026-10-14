@@ -10,8 +10,8 @@ const Login = () => {
             <div className="flex-9">
                 {/* big logo */}
             </div>
-            {screen === 'login' && <OtpScreen />}
-            {/* {screen === 'otp' && <OtpScreen setScreen={setScreen} />} */}
+            {screen === 'login' && <LoginScreen setScreen={setScreen} />}
+            {screen === 'otp' && <OtpScreen setScreen={setScreen} />}
         </div>
     </>
 }

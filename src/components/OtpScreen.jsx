@@ -1,4 +1,4 @@
-const OtpScreen = () => {
+const OtpScreen = ({ setScreen }) => {
     return <>
         <div className="flex-3 justify-center h-full flex flex-col items-center bg-gray-100 rounded-r-2xl p-10">
             <img src="/images/logo/logo.png" className="w-30 h-30" />
